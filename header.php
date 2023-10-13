@@ -14,4 +14,5 @@
         <a href="<?php echo home_url('/'); ?>">
             <img src="<?php echo get_template_directory_uri(); ?>/img/logo.svg" alt="Logo">
         </a>
+        <?php wp_nav_menu(array('theme_location' => 'main')); ?>
     </header>
